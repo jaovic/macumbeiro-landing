@@ -11,27 +11,55 @@ export default function Home() {
 	return (
 		<main className="bg-black text-red-700">
 			{/* HERO */}
-			<section className="min-h-screen flex flex-col justify-center text-center px-6">
-				<Image
-					src="/hero.jpg"
-					alt="Especialista espiritual"
-					width={180}
-					height={180}
-					className="mx-auto rounded-full border-4 border-yellow-500 shadow-[0_0_40px_rgba(180,0,0,0.9)] mb-8"
-				/>
+			<section className="min-h-screen flex items-center px-6">
+				<div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+					{/* FOTO */}
+					<div className="flex justify-center md:justify-start">
+						<Image
+							src="/hero.jpg"
+							alt="Bruxo Lira"
+							width={260}
+							height={260}
+							className="rounded-full border-4 border-yellow-500 shadow-[0_0_60px_rgba(180,0,0,0.9)]"
+						/>
+					</div>
 
-				<h1 className="text-5xl font-extrabold text-yellow-500">Bruxo Lira</h1>
+					{/* TEXTO */}
+					<div className="text-center md:text-left">
+						<h1 className="text-5xl font-extrabold text-yellow-500 mb-6">
+							Bruxo Lira
+						</h1>
 
-				<p className="mt-6 max-w-2xl mx-auto text-red-600">
-					Atuando há mais de 3 anos com trabalhos espirituais sérios,
-					direcionados e sigilosos. Experiência comprovada com questões
-					amorosas, financeiras e espirituais, sempre com fundamento e
-					responsabilidade.
-				</p>
+						<p className="text-lg text-red-500 leading-relaxed mb-6">
+							Trabalhos espirituais feitos com fundamento, sigilo absoluto e
+							responsabilidade. Nada de promessas vazias ou rituais genéricos.
+						</p>
+
+						<p className="text-red-600 leading-relaxed mb-8">
+							Atuo há mais de <strong>3 anos</strong> ajudando pessoas a
+							enxergar caminhos, cortar demandas espirituais, destravar áreas da
+							vida e tomar decisões com clareza.
+							<br />
+							<br />
+							Atendimento direto comigo. Sem intermediários. Sem teatro. Somente
+							aquilo que realmente pode e deve ser feito no seu caso.
+						</p>
+
+						<Button
+							asChild
+							className="bg-red-700 hover:bg-red-800 text-black font-bold px-10 py-6"
+						>
+							<a href="#produtos">Conhecer os Trabalhos</a>
+						</Button>
+					</div>
+				</div>
 			</section>
 
 			{/* CATEGORIAS */}
-			<section className="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-3 gap-8">
+			<section
+				id="produtos"
+				className="max-w-6xl mx-auto px-6 py-24 grid md:grid-cols-3 gap-8"
+			>
 				<Link href="/produtos/oraculos">
 					<Card className="bg-black border-red-900 hover:scale-105 transition cursor-pointer h-full min-h-[420px] flex flex-col">
 						<Image
@@ -47,8 +75,8 @@ export default function Home() {
 									Oráculos
 								</h3>
 								<p className="text-red-600 text-sm">
-									Leituras espirituais, respostas diretas e orientação
-									ancestral.
+									Leituras espirituais diretas, sem rodeios, focadas na verdade
+									do seu momento atual.
 								</p>
 							</div>
 						</CardContent>
@@ -70,7 +98,8 @@ export default function Home() {
 									Magias
 								</h3>
 								<p className="text-red-600 text-sm">
-									Pós, banhos e trabalhos energéticos.
+									Trabalhos energéticos sérios para limpeza, abertura de
+									caminhos e proteção espiritual.
 								</p>
 							</div>
 						</CardContent>
@@ -92,7 +121,8 @@ export default function Home() {
 									Farmácia Espiritual
 								</h3>
 								<p className="text-red-600 text-sm">
-									Garrafadas, fórmulas e preparos espirituais.
+									Preparos espirituais específicos, feitos conforme a
+									necessidade de cada pessoa.
 								</p>
 							</div>
 						</CardContent>
@@ -124,8 +154,8 @@ export default function Home() {
 					Atendimento Direto e Sigiloso
 				</h2>
 				<p className="text-red-600 mb-10 max-w-xl mx-auto">
-					Atendimento individual, sem intermediários. Clique abaixo e fale
-					diretamente comigo via WhatsApp.
+					Cada caso é único. Se você sente que algo está travado, confuso ou
+					pesado, o primeiro passo é conversar.
 				</p>
 
 				<Button
