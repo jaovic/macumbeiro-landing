@@ -11,8 +11,14 @@ export default function Home() {
 	return (
 		<main className="bg-black text-red-700">
 			{/* HERO */}
-			<section className="min-h-screen flex items-center px-6">
-				<div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+			<section
+				className="min-h-screen flex items-center px-6 relative bg-cover bg-center"
+				style={{ backgroundImage: "url('/hero-bg.jpg')" }}
+			>
+				{/* OVERLAY */}
+				<div className="absolute inset-0 bg-black/50" />
+
+				<div className="relative max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
 					{/* FOTO */}
 					<div className="flex justify-center md:justify-start">
 						<Image
