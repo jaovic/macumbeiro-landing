@@ -65,6 +65,7 @@ export default function Home() {
 			<section
 				id="produtos"
 				className="max-w-6xl mx-auto px-6 py-24 grid md:grid-cols-3 gap-8"
+				style={{ backgroundImage: "url('/bg-textura.jpg')" }}
 			>
 				<Link href="/produtos/oraculos">
 					<Card className="bg-black border-red-900 hover:scale-105 transition cursor-pointer h-full min-h-[420px] flex flex-col">
