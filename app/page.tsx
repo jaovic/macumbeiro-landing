@@ -175,6 +175,19 @@ export default function Home() {
 				</Button>
 			</section>
 
+			{/* BLOCO FINAL: ZÉ PILINTRA + BOTÃO CENTRALIZADOS */}
+			<div className="flex justify-center items-center gap-6 py-20 bg-black max-w-6xl mx-auto">
+				{/* ZÉ PILINTRA */}
+				<div className="flex-1 h-[300px] relative">
+					<Image
+						src="/ze-pilintra.png" // substituir pelo arquivo real
+						alt="Zé Pilintra"
+						fill
+						className="object-contain"
+					/>
+				</div>
+			</div>
+
 			<footer className="text-center text-xs text-red-800 pb-6">
 				Resultados variam conforme fé, merecimento e situação espiritual.
 			</footer>
