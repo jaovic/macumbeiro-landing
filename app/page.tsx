@@ -162,16 +162,13 @@ export default function Home() {
 					<Link href="/produtos/oraculos">
 						<Card className="bg-black border-red-900 hover:scale-105 transition cursor-pointer h-full min-h-[420px]">
 							<Image
-								src="/categorias/oraculos.jpg"
+								src="/oraculos.png"
 								alt="Oráculos"
 								width={400}
-								height={300}
-								className="rounded-t-lg object-cover h-[220px] w-full"
+								height={400}
+								className="rounded-t-lg object-cover aspect-square w-full"
 							/>
 							<CardContent className="p-6 text-center">
-								<h3 className="text-2xl text-yellow-500 font-bold mb-3">
-									Oráculos
-								</h3>
 								<p className="text-red-600 text-sm">
 									Leituras espirituais diretas, sem rodeios.
 								</p>
@@ -182,16 +179,13 @@ export default function Home() {
 					<Link href="/produtos/magias">
 						<Card className="bg-black border-red-900 hover:scale-105 transition cursor-pointer h-full min-h-[420px]">
 							<Image
-								src="/categorias/magias.jpg"
+								src="/magias.png"
 								alt="Magias"
 								width={400}
-								height={300}
-								className="rounded-t-lg object-cover h-[220px] w-full"
+								height={400}
+								className="rounded-t-lg object-cover aspect-square w-full"
 							/>
 							<CardContent className="p-6 text-center">
-								<h3 className="text-2xl text-yellow-500 font-bold mb-3">
-									Magias
-								</h3>
 								<p className="text-red-600 text-sm">
 									Trabalhos energéticos sérios, com fundamento.
 								</p>
@@ -202,16 +196,13 @@ export default function Home() {
 					<Link href="/produtos/farmacia">
 						<Card className="bg-black border-red-900 hover:scale-105 transition cursor-pointer h-full min-h-[420px]">
 							<Image
-								src="/categorias/farmacia.jpg"
+								src="/farmacia.png"
 								alt="Farmácia Espiritual"
 								width={400}
-								height={300}
-								className="rounded-t-lg object-cover h-[220px] w-full"
+								height={400}
+								className="rounded-t-lg object-cover aspect-square w-full"
 							/>
 							<CardContent className="p-6 text-center">
-								<h3 className="text-2xl text-yellow-500 font-bold mb-3">
-									Farmácia Espiritual
-								</h3>
 								<p className="text-red-600 text-sm">
 									Preparos feitos conforme necessidade real.
 								</p>
