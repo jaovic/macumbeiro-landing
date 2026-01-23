@@ -216,11 +216,6 @@ export default function Home() {
 					/>
 				</div>
 			</div>
-
-			<footer className="text-center text-xs text-red-800 pb-6">
-				Resultados variam conforme fé, merecimento e situação espiritual.
-			</footer>
-
 			<WhatsappFloating />
 		</main>
 	);
