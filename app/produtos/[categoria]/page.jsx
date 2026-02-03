@@ -19,10 +19,14 @@ export default async function CategoriaPage({ params }) {
 				{categoria}
 			</h1>
 
-			<section className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+			<section className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8 auto-rows-fr">
 				{produtosCategoria.map((p) => (
-					<Link key={p.slug} href={`/produtos/${categoria}/${p.slug}`}>
-						<Card className="bg-black border-red-900 hover:scale-105 transition cursor-pointer flex flex-col p-0 overflow-hidden">
+					<Link
+						key={p.slug}
+						href={`/produtos/${categoria}/${p.slug}`}
+						className="h-full"
+					>
+						<Card className="bg-black border-red-900 hover:scale-105 transition cursor-pointer h-full flex flex-col p-0 overflow-hidden">
 							<Image
 								src={p.image}
 								alt={p.titulo}
@@ -31,14 +35,15 @@ export default async function CategoriaPage({ params }) {
 								className="rounded-t-lg object-cover w-full"
 							/>
 
-							<CardContent className="p-6 flex-1 flex flex-col justify-between">
+							<CardContent className="p-6 flex flex-col flex-1">
 								<div>
 									<h3 className="text-xl text-yellow-500 font-bold">
 										{p.titulo}
 									</h3>
 									<p className="text-red-600 text-sm mt-2">{p.descricao}</p>
 								</div>
-								<p className="mt-4 text-yellow-500 font-bold">{p.valor}</p>
+
+								<p className="mt-auto text-yellow-500 font-bold">{p.valor}</p>
 							</CardContent>
 						</Card>
 					</Link>
