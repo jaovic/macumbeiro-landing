@@ -40,7 +40,7 @@ export const produtos = [
 		descricao:
 			"Desperta a vitalidade e o entusiasmo, fazendo você se sentir mais vivo e conectado.",
 		valor: "R$ 10,00 (500ml) / R$ 18,00 (1L)",
-		image: "/produtos/banho-cigano.jpg",
+		image: "/produtos/banho-cigano.jpeg",
 		categoria: "magias",
 	},
 	{
@@ -49,7 +49,7 @@ export const produtos = [
 		descricao:
 			"Poderoso banho de atração que desperta a energia da abundância e abre caminhos.",
 		valor: "R$ 10,00 (500ml) / R$ 18,00 (1L)",
-		image: "/produtos/banho-alafia.jpg",
+		image: "/produtos/banho-alafia.jpeg",
 		categoria: "magias",
 	},
 	{
@@ -58,7 +58,7 @@ export const produtos = [
 		descricao:
 			"Atraia devoção e respeito. Desperta a vontade de te tratar como a verdadeira realeza.",
 		valor: "R$ 15,00",
-		image: "/produtos/po-abelha-rainha.jpg",
+		image: "/produtos/po-abelha-rainha.jpeg",
 		categoria: "magias",
 	},
 	{
