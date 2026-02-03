@@ -79,7 +79,7 @@ export default function Home() {
 			>
 				<div className="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-8">
 					<Link href="/produtos/oraculos">
-						<Card className="bg-black border-red-900 hover:scale-105 transition cursor-pointer h-full min-h-[420px] p-0">
+						<Card className="bg-black border-yellow-500 hover:scale-105 transition cursor-pointer h-full p-0">
 							<Image
 								src="/oraculos.png"
 								alt="Oráculos"
@@ -87,16 +87,11 @@ export default function Home() {
 								height={400}
 								className="rounded-t-lg object-cover aspect-square w-full"
 							/>
-							<CardContent className="p-6 text-center">
-								<p className="text-red-600 text-sm">
-									Leituras espirituais diretas, sem rodeios.
-								</p>
-							</CardContent>
 						</Card>
 					</Link>
 
 					<Link href="/produtos/magias">
-						<Card className="bg-black border-red-900 hover:scale-105 transition cursor-pointer h-full min-h-[420px] p-0">
+						<Card className="bg-black border-yellow-500 hover:scale-105 transition cursor-pointer h-full p-0">
 							<Image
 								src="/magias.png"
 								alt="Magias"
@@ -104,16 +99,11 @@ export default function Home() {
 								height={400}
 								className="rounded-t-lg object-cover aspect-square w-full"
 							/>
-							<CardContent className="p-6 text-center">
-								<p className="text-red-600 text-sm">
-									Trabalhos energéticos sérios, com fundamento.
-								</p>
-							</CardContent>
 						</Card>
 					</Link>
 
 					<Link href="/produtos/farmacia">
-						<Card className="bg-black border-red-900 hover:scale-105 transition cursor-pointer h-full min-h-[420px] p-0">
+						<Card className="bg-black border-yellow-500 hover:scale-105 transition cursor-pointer h-full p-0">
 							<Image
 								src="/farmacia.png"
 								alt="Farmácia Espiritual"
@@ -121,11 +111,6 @@ export default function Home() {
 								height={400}
 								className="rounded-t-lg object-cover aspect-square w-full"
 							/>
-							<CardContent className="p-6 text-center">
-								<p className="text-red-600 text-sm">
-									Preparos feitos conforme necessidade real.
-								</p>
-							</CardContent>
 						</Card>
 					</Link>
 				</div>
@@ -150,11 +135,6 @@ export default function Home() {
 					/>
 				</div>
 			</div>
-
-			<footer className="text-center text-xs text-red-800 pb-6">
-				Resultados variam conforme fé, merecimento e situação espiritual.
-			</footer>
-
 			<WhatsappFloating />
 		</main>
 	);
