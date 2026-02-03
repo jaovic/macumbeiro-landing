@@ -46,7 +46,7 @@ export default function Home() {
 
 						<Button
 							asChild
-							className="bg-red-700 hover:bg-red-800 text-black font-bold px-10 py-6"
+							className="bg-red-700 hover:bg-red-800 text-black font-bold px-10 py-6 mb-4"
 						>
 							<Link href="/manifesto">Ler o Manifesto</Link>
 						</Button>
