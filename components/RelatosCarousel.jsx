@@ -25,8 +25,6 @@ export default function PrintsCarousel() {
 
 	return (
 		<section className="max-w-6xl mx-auto px-6 py-20">
-			<h2 className="text-3xl font-bold text-yellow-500 mb-8">Relatos Reais</h2>
-
 			<div className="relative flex items-center justify-center">
 				{/* Botão esquerdo */}
 				<button
